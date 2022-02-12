@@ -1,0 +1,16 @@
+/* WAP to print the sequence 1,2,3,4,5,..........N
+*/
+#include<stdio.h>
+void main()
+{
+    int i,n;
+    printf("\n Enter the nth number:\n");
+    scanf("%d",&n);
+    i=1;
+    do
+    {
+        printf("\n %d",i);
+        i++;
+    } while (i<=n);
+    printf("\n End Of Program");
+}
